@@ -18,7 +18,16 @@
         -webkit-clip-path: polygon(0 0, 100% 0, 50% 50%, 0% 100%);
         clip-path: polygon(0 0, 100% 0, 50% 50%, 0% 100%);
 
+    }
 
+    .bottom-banner {
+        position: absolute;
+        height: 120px;
+        width: 100%;
+        bottom: 0;
+        background-color: #1B5D87;
+        -webkit-clip-path: polygon(50% 50%, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(50% 50%, 100% 0, 100% 100%, 0 100%);
     }
 
     .blurbBox {
@@ -54,6 +63,156 @@
         text-align: center;
         bottom: 15px;
         margin: 0;
+
+    }
+
+    .details-form {
+        position: relative;
+        top: 70px;
+        height: 310px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    input {
+        height: 20px;
+        border: none;
+        border-bottom: 1px solid #000;
+        outline: none;
+        text-align: center;
+
+    }
+
+    .first-name {
+        position: absolute;
+        left: 20px;
+        top: 15px;
+        width: 43%;
+    }
+
+    .last-name {
+        position: absolute;
+        margin-left: 20px;
+        top: 15px;
+        width: 43%;
+        right: 20px;
+    }
+
+    .email {
+        position: absolute;
+        top: 82px;
+        width: 83%;
+
+    }
+
+    .postcode {
+        position: absolute;
+        top: 149px;
+        width: 83%;
+
+    }
+
+    .contact-number {
+        position: absolute;
+        top: 216px;
+        width: 83%;
+
+    }
+
+    .address {
+        position: absolute;
+        top: 283px;
+        width: 83%;
+        height: 20px;
+        border: none;
+        border-bottom: 1px solid #000;
+        outline: none;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        transition: 0.3s;
+
+
+    }
+
+
+    .address:focus {
+        height: 70px;
+
+    }
+
+    .btn-wrap {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .next-btn {
+        position: absolute;
+        bottom: 25px;
+        background-color: #ECD397;
+        width: 83%;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
+        box-shadow:
+            0 2.8px 2.2px rgba(0, 0, 0, 0.07),
+            0 6.7px 5.3px rgba(0, 0, 0, 0.05),
+            0 12.5px 10px rgba(0, 0, 0, 0.042),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.035),
+            0 41.8px 33.4px rgba(0, 0, 0, 0.028),
+            0 100px 80px rgba(0, 0, 0, 0.02);
+
+    }
+
+    .next-btn:active {
+        box-shadow: none;
+    }
+
+
+
+
+
+
+    ::-webkit-input-placeholder {
+        color: #1B5D87;
+        opacity: 0.5;
+        font-size: 17px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+
+    }
+
+    ::-moz-placeholder {
+        color: #1B5D87;
+        opacity: 0.5;
+        font-size: 17px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+
+    }
+
+    :-ms-input-placeholder {
+        color: #1B5D87;
+        opacity: 0.5;
+        font-size: 17px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+
+    }
+
+    :-moz-placeholder {
+        color: #1B5D87;
+        opacity: 0.5;
+        font-size: 17px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
 
     }
 
